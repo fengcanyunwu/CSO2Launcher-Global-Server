@@ -92,7 +92,7 @@ namespace Launcher
                     btnConnectVPN.Enabled = false;
                     btnConnectVPN.Text = "Bağlanılıyor...";
                     Directory.SetCurrentDirectory(@"C:\Windows\System32");
-                    System.Diagnostics.Process.Start("rasdial.exe", "CSO2Server uservpn userpassword");
+                    System.Diagnostics.Process.Start("rasdial.exe", "CSO2Server vpnUsername vpnPassword");
                     await Task.Delay(2000);
                     btnConnectVPN.Text = "Giriş Yapıldı";
                     connectToVPN();
