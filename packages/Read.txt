@@ -1,0 +1,8 @@
+What to install first before using the project (MUST)
+1.Google.Apis.1.49.0
+2.Google.Apis.Core.1.49.0
+3.MetroModernUI.1.4.0.0
+4.Newtonsoft.Json.12.0.3
+5.System.Net.NetworkInformation.4.3.0
+6.System.Net.Ping.4.3.0
+install the above components
