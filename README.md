@@ -4,7 +4,7 @@
 
 ![Image](photo/white.png)
 
-CSO2 Discord Sunucuları:
+CSO2 Discord Sunucuları / CSO2 Discord Servers:
 
     1. https://discord.gg/DC3n6nX89D  === TR/ENG/KOR/CN/TW=
     
