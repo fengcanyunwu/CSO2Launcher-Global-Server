@@ -4,6 +4,11 @@
 
 ![Image](photo/white.png)
 
+CSO2 Discord Sunucuları:
+
+    1. https://discord.gg/DC3n6nX89D  === TR/ENG/KOR/CN/TW=
+    
+
 ### 0x01 Uyumluluk / Compatibility
 
     1. KouKouChan Server √
