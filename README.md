@@ -1,5 +1,7 @@
 ## Counter-Strike Online 2 Game Launcher
 
+![Image](https://ci.appveyor.com/api/projects/status/iw0ykduxwiy62ksm?svg=true)
+
 ![Image](photo/white.png)
 
 ### 0x01 Uyumluluk / Compatibility
