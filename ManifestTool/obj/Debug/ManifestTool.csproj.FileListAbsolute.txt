@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\GameLauncher-master\ManifestTool\bin\Debug\ManifestTool.exe
+C:\Users\Administrator\Desktop\GameLauncher-master\ManifestTool\bin\Debug\ManifestTool.pdb
+C:\Users\Administrator\Desktop\GameLauncher-master\ManifestTool\obj\Debug\ManifestTool.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\GameLauncher-master\ManifestTool\obj\Debug\ManifestTool.Form1.resources
+C:\Users\Administrator\Desktop\GameLauncher-master\ManifestTool\obj\Debug\ManifestTool.Properties.Resources.resources
+C:\Users\Administrator\Desktop\GameLauncher-master\ManifestTool\obj\Debug\ManifestTool.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\GameLauncher-master\ManifestTool\obj\Debug\ManifestTool.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\GameLauncher-master\ManifestTool\obj\Debug\ManifestTool.exe
+C:\Users\Administrator\Desktop\GameLauncher-master\ManifestTool\obj\Debug\ManifestTool.pdb
