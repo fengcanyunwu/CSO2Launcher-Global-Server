@@ -20,7 +20,7 @@
     6.System.Net.Ping.4.3.0
     7.InputSimulator.1.0.4.0
     
-### 0x02 Gerekli Yazılımlar / Required Software
+### 0x03 Gerekli Yazılımlar / Required Software
     1.Visual Studio 2019
     
 
