@@ -3,9 +3,9 @@
 
 ### 0x01 Tamamlanan Özellikler / Completed Features
 
-    1. Otomatik Güncelleme √
-    2. Dosya Kontrolü √
-    3. 
+    1. Otomatik Güncelleme / Automatic Update √
+    2. Dosya Kontrolü / File Control √
+    3. VPN Bağlama / Connecting a VPN  √
     
 ### 0x02 Gerekli Bileşenler / Required Components
     1.Google.Apis.1.49.0
@@ -14,6 +14,7 @@
     4.Newtonsoft.Json.12.0.3
     5.System.Net.NetworkInformation.4.3.0
     6.System.Net.Ping.4.3.0
+    7.InputSimulator.1.0.4.0
     
 
 ### 0x03 Ekran Görüntüleri / Screenshots
