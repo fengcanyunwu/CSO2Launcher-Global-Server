@@ -47,9 +47,12 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.LauncherVersion = new System.Windows.Forms.Label();
             this.TopPanel = new System.Windows.Forms.Panel();
+            this.viewPublicIP = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnConnectVPN = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this._Options)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Minimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._Close)).BeginInit();
@@ -230,9 +233,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(500, 93);
+            this.button1.Location = new System.Drawing.Point(390, 93);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(207, 25);
+            this.button1.Size = new System.Drawing.Size(180, 25);
             this.button1.TabIndex = 22;
             this.button1.Text = "Güncellemeyi Manuel  İndir";
             this.button1.UseVisualStyleBackColor = false;
@@ -249,7 +252,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(257, 93);
+            this.button2.Location = new System.Drawing.Point(163, 93);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(82, 25);
             this.button2.TabIndex = 23;
@@ -288,6 +291,8 @@
             // TopPanel
             // 
             this.TopPanel.BackColor = System.Drawing.Color.Lime;
+            this.TopPanel.Controls.Add(this.viewPublicIP);
+            this.TopPanel.Controls.Add(this.label2);
             this.TopPanel.Controls.Add(this.label1);
             this.TopPanel.Controls.Add(this.LauncherVersion);
             this.TopPanel.Controls.Add(this.pictureBox1);
@@ -300,10 +305,28 @@
             this.TopPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.TopPanel_MouseMove);
             this.TopPanel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.TopPanel_MouseUp);
             // 
+            // viewPublicIP
+            // 
+            this.viewPublicIP.AutoSize = true;
+            this.viewPublicIP.Location = new System.Drawing.Point(157, 68);
+            this.viewPublicIP.Name = "viewPublicIP";
+            this.viewPublicIP.Size = new System.Drawing.Size(40, 13);
+            this.viewPublicIP.TabIndex = 27;
+            this.viewPublicIP.Text = "0.0.0.0";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(79, 68);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(77, 13);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "VPN Adresiniz:";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(552, 12);
+            this.label1.Location = new System.Drawing.Point(0, 68);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 25;
@@ -320,9 +343,9 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(345, 93);
+            this.button3.Location = new System.Drawing.Point(249, 93);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(149, 25);
+            this.button3.Size = new System.Drawing.Size(131, 25);
             this.button3.TabIndex = 24;
             this.button3.Text = "Grafikleri Düşürün!";
             this.button3.UseVisualStyleBackColor = false;
@@ -332,6 +355,18 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // btnConnectVPN
+            // 
+            this.btnConnectVPN.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnConnectVPN.Image = global::Launcher.Properties.Resources.ButtonManuelUpdate;
+            this.btnConnectVPN.Location = new System.Drawing.Point(576, 93);
+            this.btnConnectVPN.Name = "btnConnectVPN";
+            this.btnConnectVPN.Size = new System.Drawing.Size(131, 23);
+            this.btnConnectVPN.TabIndex = 25;
+            this.btnConnectVPN.Text = "VPN Bağlan";
+            this.btnConnectVPN.UseVisualStyleBackColor = true;
+            this.btnConnectVPN.Click += new System.EventHandler(this.btnConnectVPN_Click);
+            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -340,6 +375,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(838, 634);
             this.ControlBox = false;
+            this.Controls.Add(this.btnConnectVPN);
             this.Controls.Add(this.downloadingInfo);
             this.Controls.Add(this.EstimatedTime);
             this.Controls.Add(this.downloading);
@@ -401,6 +437,9 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnConnectVPN;
+        private System.Windows.Forms.Label viewPublicIP;
     }
 }
 
