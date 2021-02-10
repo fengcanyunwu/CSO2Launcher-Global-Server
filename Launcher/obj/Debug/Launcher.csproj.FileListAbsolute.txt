@@ -1,0 +1,136 @@
+D:\Unreal Projects\ArtOfSword\Launcher\Launcher\bin\Debug\Launcher.exe.config
+D:\Unreal Projects\ArtOfSword\Launcher\Launcher\bin\Debug\Launcher.exe
+D:\Unreal Projects\ArtOfSword\Launcher\Launcher\bin\Debug\Launcher.pdb
+D:\Unreal Projects\ArtOfSword\Launcher\Launcher\bin\Debug\MetroFramework.Design.dll
+D:\Unreal Projects\ArtOfSword\Launcher\Launcher\bin\Debug\MetroFramework.dll
+D:\Unreal Projects\ArtOfSword\Launcher\Launcher\bin\Debug\MetroFramework.Fonts.dll
+D:\Unreal Projects\ArtOfSword\Launcher\Launcher\obj\Debug\Launcher.LauncherSettings.resources
+D:\Unreal Projects\ArtOfSword\Launcher\Launcher\obj\Debug\Launcher.main.resources
+D:\Unreal Projects\ArtOfSword\Launcher\Launcher\obj\Debug\Launcher.Properties.Resources.resources
+D:\Unreal Projects\ArtOfSword\Launcher\Launcher\obj\Debug\Launcher.csproj.GenerateResource.Cache
+D:\Unreal Projects\ArtOfSword\Launcher\Launcher\obj\Debug\Launcher.exe
+D:\Unreal Projects\ArtOfSword\Launcher\Launcher\obj\Debug\Launcher.pdb
+D:\Unreal Projects\ArtOfSword\Launcher\Launcher\obj\Debug\Launcher.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\bin\Debug\Launcher.exe.config
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\bin\Debug\Launcher.exe
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\bin\Debug\Launcher.pdb
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\bin\Debug\MetroFramework.Design.dll
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\bin\Debug\MetroFramework.dll
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\obj\Debug\Launcher.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\obj\Debug\Launcher.LauncherSettings.resources
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\obj\Debug\Launcher.main.resources
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\obj\Debug\Launcher.Properties.Resources.resources
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\obj\Debug\Launcher.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\obj\Debug\Launcher.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\obj\Debug\Launcher.csproj.CopyComplete
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\obj\Debug\Launcher.exe
+C:\Users\Administrator\Desktop\GameLauncher-master\Launcher\obj\Debug\Launcher.pdb
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\bin\Debug\Launcher.exe.config
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\bin\Debug\Launcher.exe
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\bin\Debug\Launcher.pdb
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\bin\Debug\MetroFramework.Design.dll
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\bin\Debug\MetroFramework.dll
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\obj\Debug\Launcher.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\obj\Debug\Launcher.LauncherSettings.resources
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\obj\Debug\Launcher.main.resources
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\obj\Debug\Launcher.Properties.Resources.resources
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\obj\Debug\Launcher.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\obj\Debug\Launcher.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\obj\Debug\Launcher.csproj.CopyComplete
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\obj\Debug\Launcher.exe
+C:\Users\Administrator\Desktop\GameLauncher-master\English_Launcher\Launcher\obj\Debug\Launcher.pdb
+E:\CSO2\Launcher\English_Launcher\Launcher\bin\Debug\MetroFramework.Design.dll
+E:\CSO2\Launcher\English_Launcher\Launcher\bin\Debug\MetroFramework.dll
+E:\CSO2\Launcher\English_Launcher\Launcher\bin\Debug\MetroFramework.Fonts.dll
+E:\CSO2\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.csprojAssemblyReference.cache
+E:\CSO2\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.LauncherSettings.resources
+E:\CSO2\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.main.resources
+E:\CSO2\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.Properties.Resources.resources
+E:\CSO2\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.csproj.GenerateResource.cache
+E:\CSO2\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.csproj.CoreCompileInputs.cache
+E:\CSO2\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.csproj.CopyComplete
+E:\CSO2\Launcher\English_Launcher\Launcher\bin\Debug\CSO2LauncherEN.exe.config
+E:\CSO2\Launcher\English_Launcher\Launcher\bin\Debug\CSO2LauncherEN.exe
+E:\CSO2\Launcher\English_Launcher\Launcher\bin\Debug\CSO2LauncherEN.pdb
+E:\CSO2\Launcher\English_Launcher\Launcher\obj\Debug\CSO2LauncherEN.exe
+E:\CSO2\Launcher\English_Launcher\Launcher\obj\Debug\CSO2LauncherEN.pdb
+D:\Launcher\English_Launcher\Launcher\bin\Debug\CSO2LauncherEN.exe.config
+D:\Launcher\English_Launcher\Launcher\bin\Debug\CSO2LauncherEN.exe
+D:\Launcher\English_Launcher\Launcher\bin\Debug\CSO2LauncherEN.pdb
+D:\Launcher\English_Launcher\Launcher\bin\Debug\MetroFramework.Design.dll
+D:\Launcher\English_Launcher\Launcher\bin\Debug\MetroFramework.dll
+D:\Launcher\English_Launcher\Launcher\bin\Debug\MetroFramework.Fonts.dll
+D:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.csprojAssemblyReference.cache
+D:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.LauncherSettings.resources
+D:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.main.resources
+D:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.Properties.Resources.resources
+D:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.csproj.GenerateResource.cache
+D:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.csproj.CoreCompileInputs.cache
+D:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.csproj.CopyComplete
+D:\Launcher\English_Launcher\Launcher\obj\Debug\CSO2LauncherEN.exe
+D:\Launcher\English_Launcher\Launcher\obj\Debug\CSO2LauncherEN.pdb
+D:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.Core.dll
+D:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.dll
+D:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.PlatformServices.dll
+D:\Launcher\English_Launcher\Launcher\bin\Debug\Newtonsoft.Json.dll
+D:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.pdb
+D:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.xml
+D:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.Core.pdb
+D:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.Core.xml
+D:\Launcher\English_Launcher\Launcher\bin\Debug\Newtonsoft.Json.xml
+E:\Launcher\English_Launcher\Launcher\bin\Debug\CSO2LauncherEN.exe.config
+E:\Launcher\English_Launcher\Launcher\bin\Debug\CSO2LauncherEN.exe
+E:\Launcher\English_Launcher\Launcher\bin\Debug\CSO2LauncherEN.pdb
+E:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.Core.dll
+E:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.dll
+E:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.PlatformServices.dll
+E:\Launcher\English_Launcher\Launcher\bin\Debug\MetroFramework.Design.dll
+E:\Launcher\English_Launcher\Launcher\bin\Debug\MetroFramework.dll
+E:\Launcher\English_Launcher\Launcher\bin\Debug\MetroFramework.Fonts.dll
+E:\Launcher\English_Launcher\Launcher\bin\Debug\Newtonsoft.Json.dll
+E:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.pdb
+E:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.xml
+E:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.Core.pdb
+E:\Launcher\English_Launcher\Launcher\bin\Debug\Google.Apis.Core.xml
+E:\Launcher\English_Launcher\Launcher\bin\Debug\Newtonsoft.Json.xml
+E:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.csprojAssemblyReference.cache
+E:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.LauncherSettings.resources
+E:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.main.resources
+E:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.Properties.Resources.resources
+E:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.csproj.GenerateResource.cache
+E:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.csproj.CoreCompileInputs.cache
+E:\Launcher\English_Launcher\Launcher\obj\Debug\Launcher.csproj.CopyComplete
+E:\Launcher\English_Launcher\Launcher\obj\Debug\CSO2LauncherEN.exe
+E:\Launcher\English_Launcher\Launcher\obj\Debug\CSO2LauncherEN.pdb
+E:\Launcher\English_Launcher\Launcher\bin\Debug\System.Net.Ping.dll
+E:\Launcher\English_Launcher\Launcher\bin\Debug\System.Net.NetworkInformation.dll
+D:\Launcher\English_Launcher\Launcher\bin\Debug\System.Net.NetworkInformation.dll
+D:\Launcher\English_Launcher\Launcher\bin\Debug\System.Net.Ping.dll
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\Google.Apis.Core.dll
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\Google.Apis.dll
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\Google.Apis.PlatformServices.dll
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\MetroFramework.Design.dll
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\MetroFramework.dll
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\MetroFramework.Fonts.dll
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\Newtonsoft.Json.dll
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\System.Net.NetworkInformation.dll
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\System.Net.Ping.dll
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\Google.Apis.pdb
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\Google.Apis.xml
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\Google.Apis.Core.pdb
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\Google.Apis.Core.xml
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\Newtonsoft.Json.xml
+D:\Launcher\Turkish_Launcher\Launcher\obj\Debug\Launcher.csprojAssemblyReference.cache
+D:\Launcher\Turkish_Launcher\Launcher\obj\Debug\Launcher.LauncherSettings.resources
+D:\Launcher\Turkish_Launcher\Launcher\obj\Debug\Launcher.main.resources
+D:\Launcher\Turkish_Launcher\Launcher\obj\Debug\Launcher.Properties.Resources.resources
+D:\Launcher\Turkish_Launcher\Launcher\obj\Debug\Launcher.csproj.GenerateResource.cache
+D:\Launcher\Turkish_Launcher\Launcher\obj\Debug\Launcher.csproj.CoreCompileInputs.cache
+D:\Launcher\Turkish_Launcher\Launcher\obj\Debug\Launcher.csproj.CopyComplete
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\CSO2LauncherTUR.exe.config
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\CSO2LauncherTUR.exe
+D:\Launcher\Turkish_Launcher\Launcher\bin\Debug\CSO2LauncherTUR.pdb
+D:\Launcher\Turkish_Launcher\Launcher\obj\Debug\CSO2LauncherTUR.exe
+D:\Launcher\Turkish_Launcher\Launcher\obj\Debug\CSO2LauncherTUR.pdb
