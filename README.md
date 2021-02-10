@@ -1,7 +1,13 @@
 ## Counter-Strike Online 2 Game Launcher
 
+### 0x01 Uyumluluk / Compatibility
 
-### 0x01 Tamamlanan Özellikler / Completed Features
+    1. KouKouChan Server √
+    2. Kore İstemcisi / Korean Client √
+    3. Çin İstemcisi / Chinese Client √
+    
+
+### 0x02 Tamamlanan Özellikler / Completed Features
 
     1. Otomatik Güncelleme / Automatic Update √
     2. Dosya Kontrolü / File Control √
@@ -11,7 +17,7 @@
     6. Google Drive Özelliği / Google Drive Feature
     
     
-### 0x02 Gerekli Bileşenler / Required Components
+### 0x03 Gerekli Bileşenler / Required Components
     1.Google.Apis.1.49.0
     2.Google.Apis.Core.1.49.0
     3.MetroModernUI.1.4.0.0
@@ -20,7 +26,7 @@
     6.System.Net.Ping.4.3.0
     7.InputSimulator.1.0.4.0
     
-### 0x03 Gerekli Yazılımlar / Required Software
+### 0x04 Gerekli Yazılımlar / Required Software
     1.Visual Studio 2019
     
 
