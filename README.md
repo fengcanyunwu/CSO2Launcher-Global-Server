@@ -1,5 +1,7 @@
 ## Counter-Strike Online 2 Game Launcher
 
+![Image](photo/white.png)
+
 ### 0x01 Uyumluluk / Compatibility
 
     1. KouKouChan Server √
