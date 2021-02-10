@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net.NetworkInformation;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -7,11 +7,19 @@ using System.IO;
 using System.Reflection;
 using System.Diagnostics;
 using System.Drawing;
+using System.Linq;
+using System.Text;
 using Launcher.MainView;
 using System.Web.UI.WebControls.WebParts;
 using System.Net;
 using System.Security.Principal;
 using System.Windows;
+using Microsoft.Win32;
+using WindowsInput.Native;
+using WindowsInput;
+using System.ComponentModel;
+using System.Data;
+using System.Threading.Tasks;
 
 namespace Launcher
 {
@@ -45,12 +53,99 @@ namespace Launcher
         public main()
         {
             InitializeComponent();
+            updateIPDisplay();
+            captivePortalTest();
             myState.changeButtonState(LauncherState.Idle, this);
             this.Shown += new System.EventHandler(this.AfterLoading);
             LauncherVersion.Text = this.Text + " Ver." + Assembly.GetExecutingAssembly().GetName().Version.ToString();
             XmlParser.LoadXML();
             settingsForm = new LauncherSettings(this);
         }
+
+
+
+
+
+
+        public string btnStateStatus = "awaitingConnection";
+
+        public void connectToVPN()
+        {
+            InputSimulator sim = new InputSimulator();
+
+            string vpnUsername = "VPN-Username";
+            string vpnPassword = "VPN-Password";
+
+            sim.Keyboard.TextEntry(vpnUsername);
+            sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
+            sim.Keyboard.Sleep(500);
+            sim.Keyboard.TextEntry(vpnPassword);
+            sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
+            sim.Keyboard.Sleep(500);
+        }
+
+        private async void btnConnectVPN_Click(object sender, EventArgs e)
+        {
+            switch (btnStateStatus)
+            {
+                case "awaitingConnection":
+                    btnConnectVPN.Enabled = false;
+                    btnConnectVPN.Text = "Bağlanılıyor...";
+                    Directory.SetCurrentDirectory(@"C:\Windows\System32");
+                    System.Diagnostics.Process.Start("rasdial.exe", "CSO2Server uservpn userpassword");
+                    await Task.Delay(2000);
+                    btnConnectVPN.Text = "Giriş Yapıldı";
+                    connectToVPN();
+                    await Task.Delay(5000);
+                    btnConnectVPN.Enabled = true;
+                    btnConnectVPN.Text = "Bağlantıyı Kes";
+                    btnStateStatus = "connectionEstablished";
+                    updateIPDisplay();
+                    break;
+
+                case "connectionEstablished":
+                    btnConnectVPN.Enabled = false;
+                    btnConnectVPN.Text = "Kapatılıyor...";
+                    System.Diagnostics.Process.Start("rasdial.exe", "CSO2Server /d");
+                    await Task.Delay(3850);
+                    btnStateStatus = "awaitingConnection";
+                    btnConnectVPN.Enabled = true;
+                    btnConnectVPN.Text = "Reconnect";
+                    updateIPDisplay();
+                    break;
+            }
+        }
+
+
+
+        public void updateIPDisplay()
+        {
+            string publicIPv4 = new WebClient().DownloadString("http://icanhazip.com");
+            viewPublicIP.Text = publicIPv4;
+        }
+
+        public void captivePortalTest()
+        {
+            string captiveCheck = new WebClient().DownloadString("http://captive.apple.com");
+
+            if (captiveCheck.Contains("Success") == false)
+            {
+                MessageBox.Show("A captive portal was detected - please authenticate into your network before connecting.", "SimpleConnect", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
         /*******************************
             formater to get the bytes suffix
         /********************************/
@@ -445,6 +540,12 @@ namespace Launcher
         }
 
         private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
