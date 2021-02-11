@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,13 +26,13 @@ namespace Launcher.MainView
             {
                 string path = System.IO.Path.GetFullPath("./");
                 string xml = _wc.DownloadString(NetworkThing.Info.getXmlFileFromUrl());
-                if (isFileExist("TUR_Version.xml") == true)
+                if (isFileExist("ENG_Version.xml") == true)
                 {
-                    File.Delete(path + "TUR_Version.xml");
+                    File.Delete(path + "ENG_Version.xml");
                 }
-                File.Create(path + "TUR_Version.xml").Close();
-                File.WriteAllText(path + "TUR_Version.xml", xml);
-                doc = XDocument.Load("TUR_Version.xml");
+                File.Create(path + "ENG_Version.xml").Close();
+                File.WriteAllText(path + "ENG_Version.xml", xml);
+                doc = XDocument.Load("ENG_Version.xml");
             }
             catch (Exception e)
             {
