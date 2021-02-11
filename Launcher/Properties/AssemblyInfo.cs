@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("CSO2Launcher (64 Bit)")]
-[assembly: AssemblyDescription("Counter-Strike Online 2 Turkish Launcher")]
+[assembly: AssemblyDescription("Counter-Strike Online 2 Launcher")]
 [assembly: AssemblyConfiguration("0.0.1")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("CSO2Launcher")]
