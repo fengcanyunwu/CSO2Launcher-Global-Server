@@ -1,4 +1,4 @@
-﻿namespace Launcher
+namespace Launcher
 {
     partial class LauncherSettings
     {
@@ -102,7 +102,7 @@
             this.Uninstall.Name = "Uninstall";
             this.Uninstall.Size = new System.Drawing.Size(385, 27);
             this.Uninstall.TabIndex = 13;
-            this.Uninstall.Text = "Güncellemeyi Sil";
+            this.Uninstall.Text = "Delete Update";
             this.Uninstall.UseVisualStyleBackColor = false;
             this.Uninstall.Click += new System.EventHandler(this.Uninstall_Click);
             // 
@@ -121,7 +121,7 @@
             this.Repair.Name = "Repair";
             this.Repair.Size = new System.Drawing.Size(385, 27);
             this.Repair.TabIndex = 15;
-            this.Repair.Text = "Güncellemeyi Tahmir ET";
+            this.Repair.Text = "Repair Update";
             this.Repair.UseVisualStyleBackColor = false;
             this.Repair.Click += new System.EventHandler(this.Repair_Click);
             // 
@@ -147,9 +147,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Location = new System.Drawing.Point(216, 64);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(391, 32);
+            this.label1.Size = new System.Drawing.Size(266, 32);
             this.label1.TabIndex = 17;
-            this.label1.Text = "Katkıda Bulunan Kullanıcılar";
+            this.label1.Text = "Contributing Users";
             this.label1.Click += new System.EventHandler(this.pictureBox1_Click);
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TopPanel_MouseDown);
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.TopPanel_MouseMove);
@@ -164,9 +164,9 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label3.Location = new System.Drawing.Point(36, 139);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(355, 19);
+            this.label3.Size = new System.Drawing.Size(417, 19);
             this.label3.TabIndex = 19;
-            this.label3.Text = "1.Sunucu Desteği ve Geliştirici: KouKouChan";
+            this.label3.Text = "1. Server Support and Developer: KouKouChan#9014";
             // 
             // label4
             // 
@@ -177,9 +177,9 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label4.Location = new System.Drawing.Point(36, 173);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(283, 19);
+            this.label4.Size = new System.Drawing.Size(353, 19);
             this.label4.TabIndex = 20;
-            this.label4.Text = "2. Kore Dili Desteği ve Yönetici Hezz";
+            this.label4.Text = "2.Korean Language Support 정거인#7338 Hezz";
             // 
             // label5
             // 
@@ -190,9 +190,9 @@
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label5.Location = new System.Drawing.Point(36, 205);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(245, 19);
+            this.label5.Size = new System.Drawing.Size(346, 19);
             this.label5.TabIndex = 21;
-            this.label5.Text = "3. Tayvan Dil Desteği: 藍色 肥貓";
+            this.label5.Text = "3. Taiwan Language Support: 藍色肥貓#1229";
             // 
             // label6
             // 
