@@ -1,4 +1,4 @@
-﻿
+
 namespace Launcher
 {
     enum LauncherState
@@ -24,7 +24,7 @@ namespace Launcher
             {
                 case LauncherState.Idle:
                     {
-                        MainForm._Play.Text = "Oyunu Başlat";
+                        MainForm._Play.Text = "Game Start";
                         MainForm._Play.Enabled = true;
                         MainForm._TotalFile.Visible = false;
                         MainForm._estimatedTime.Visible = false;
@@ -38,7 +38,7 @@ namespace Launcher
                     }
                 case LauncherState.Downloading:
                     {
-                        MainForm._Play.Text = "İndiriliyor..";
+                        MainForm._Play.Text = "Downloading...";
                         MainForm._Play.Enabled = false;
                         MainForm._TotalFile.Visible = true;
                         MainForm._estimatedTime.Visible = true;
@@ -50,7 +50,7 @@ namespace Launcher
                     }
                 case LauncherState.PendingUpdate:
                     {
-                        MainForm._Play.Text = "Oyunu Güncelle";
+                        MainForm._Play.Text = "Update Game";
                         MainForm._Play.Enabled = true;
                         MainForm._ProgressBar.Value = 0;
                         MainForm._TotalFile.Visible = true;
@@ -63,7 +63,7 @@ namespace Launcher
                     }
                 case LauncherState.Repair:
                     {
-                        MainForm._Play.Text = "Güncellemeyi Kontrol Et";
+                        MainForm._Play.Text = "Check for Updates";
                         MainForm._Play.Enabled = false;
                         MainForm._TotalFile.Visible = true;
                         MainForm._estimatedTime.Visible = false;
@@ -75,7 +75,7 @@ namespace Launcher
                     }
                 case LauncherState.Uninstall:
                     {
-                        MainForm._Play.Text = "Güncellemeyi Kaldır";
+                        MainForm._Play.Text = "Uninstall Update";
                         MainForm._Play.Enabled = false;
                         MainForm._TotalFile.Visible = false;
                         MainForm._estimatedTime.Visible = false;
