@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -79,9 +79,9 @@ namespace ManifestTool
         {
             if (path != "")
             {
-                if (!File.Exists("manifest.dat"))
+                if (!File.Exists("CheckFiles.dat"))
                 {
-                    StreamWriter writetext = new StreamWriter("manifest.dat");
+                    StreamWriter writetext = new StreamWriter("CheckFiles.dat");
                     foreach (string s in files)
                     {
                         // Keep only root path selected
@@ -92,11 +92,11 @@ namespace ManifestTool
                         writetext.WriteLine(file + ":" + GetFileHash(s) + ":" + GetFileSize(s));
                     }
                     writetext.Close();
-                    MessageBox.Show("Manifest file generated!.", "Done", MessageBoxButtons.OK);
+                    MessageBox.Show("CheckFiles file generated!.", "Done", MessageBoxButtons.OK);
                 }
                 else
                 {
-                    MessageBox.Show("Manifest file already exist.", "Error", MessageBoxButtons.OK);
+                    MessageBox.Show("CheckFiles file already exist.", "Error", MessageBoxButtons.OK);
                 }
             }
             else
