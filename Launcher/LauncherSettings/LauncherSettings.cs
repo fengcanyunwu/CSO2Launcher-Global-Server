@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -56,8 +56,8 @@ namespace Launcher
         private void Uninstall_Click(object sender, EventArgs e)
         {
 
-            const string message = "Oyun Veya Son Güncelleme Kaldırılacaktır Bundan Emin Misiniz!";
-            const string caption = "Oyunu Kaldırmak İstediğinizden Emin Misiniz?";
+            const string message = "Game Or Latest Update Will Be Removed Are You Sure!";
+            const string caption = "Are You Sure You Want To Uninstall The Game?";
             var result = MessageBox.Show(message, caption, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
