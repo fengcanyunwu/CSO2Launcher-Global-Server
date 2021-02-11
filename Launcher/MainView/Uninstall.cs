@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading;
 using System.Net;
 using System.IO;
@@ -49,7 +49,7 @@ namespace Launcher
             }
             if (isFileExist(path + NetworkThing.Info.getXmlFile()) == true)
                 File.Delete(path + NetworkThing.Info.getXmlFile());
-            System.Windows.Forms.MessageBox.Show("Kaldırma tamamlandı");
+            System.Windows.Forms.MessageBox.Show("Uninstall complete");
         }
     }
 }
