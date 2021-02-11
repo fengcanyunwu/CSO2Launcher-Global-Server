@@ -1,0 +1,13 @@
+======Sunucunuzun Web Sitenizi Kullanmadan Önce Okuyunuz======
+1.Çoklu Dil Kullanmıyorsanız Sunucunun Kendi Web Site Özelliğini Kullanın
+2.Eğer Başka Web Uygulaması Kullanmak İstiyorsanız AppServer Uyumludur (IIS Server ve xampp gibi uygulamalar uyumsuzdur)
+3.Bu Başlatıcı https://github.com/KouKouChan/CSO2-Server/ için Yapılmıştır
+======Özel Teşekkürler
+1.KouKouChan#9014
+2.정거인#7338 (Hezz)
+3.[TR]Kawaii#1244
+4.유리에#5154
+5.藍色肥貓#1229
+6.Yunus#0900
+7.ayy lmao#5375
+8.Pistollers#0431
