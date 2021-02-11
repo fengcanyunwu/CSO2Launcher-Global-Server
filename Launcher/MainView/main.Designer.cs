@@ -170,7 +170,7 @@
             this.webBrowser1.ScrollBarsEnabled = false;
             this.webBrowser1.Size = new System.Drawing.Size(837, 451);
             this.webBrowser1.TabIndex = 18;
-            this.webBrowser1.Url = new System.Uri("http://45.145.23.31/update/turkish", System.UriKind.Absolute);
+            this.webBrowser1.Url = new System.Uri("http://127.0.0.1/notice", System.UriKind.Absolute);
             // 
             // play
             // 
