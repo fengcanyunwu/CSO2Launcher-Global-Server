@@ -20,11 +20,11 @@ CSO2 Discord Sunucuları / CSO2 Discord Servers:
 
     1. Otomatik Güncelleme / Automatic Update √
     2. Dosya Kontrolü / File Control √
-    3. VPN Bağlama / Connecting a VPN  √
-    4. Server Accessibility Control √
-    5. Çoklu Dil Desteği / Multi Language Support
-    6. Google Drive Özelliği / Google Drive Feature
-    
+    3. VPN Bağlama / Connecting a VPN √
+    4. Sunucu Gecikmesini Göster / Show Server Ping √
+    5. Server Accessibility Control √
+    6. Çoklu Dil Desteği / Multi Language Support
+    7. Google Drive Özelliği / Google Drive Feature
     
 ### 0x03 Gerekli Bileşenler / Required Components
     1.Google.Apis.1.49.0
@@ -34,6 +34,9 @@ CSO2 Discord Sunucuları / CSO2 Discord Servers:
     5.System.Net.NetworkInformation.4.3.0
     6.System.Net.Ping.4.3.0
     7.InputSimulator.1.0.4.0
+    
+    ==Paket Konusunda Hata Alırsanız 'packages.rar' adlı arjivi ayıklayın==
+    ==If You Get Error About Package Extract the archive named 'packages.rar'==
     
 ### 0x04 Gerekli Yazılımlar / Required Software
     1.Visual Studio 2019
