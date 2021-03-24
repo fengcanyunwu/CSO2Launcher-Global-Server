@@ -7,7 +7,7 @@
 CSO2 Discord Sunucuları / CSO2 Discord Servers:
 
     1. https://discord.gg/DC3n6nX89D  === CSO2 Global Server http://cs2onlinemulti.com/=
-    2. https://cso2.ultrax.cc/  === CSO2 Taiwan Server
+    2. https://discord.gg/CBqcPP5  === CSO2 Taiwan Server https://cso2.ultrax.cc/
     
 
 ### 0x01 Uyumluluk / Compatibility
